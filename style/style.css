@@ -471,12 +471,13 @@ body {
     top: -14rem;
     right: -10em;
     transition-delay: 1s;
-    width: 50vw;
+    width: 30vw;
     height: 40vh;
     padding-bottom: 4rem;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 300ms, opacity 300ms;
+    border-radius:45% 55% 61% 39% / 33% 34% 66% 67% ;
     
 
 }
@@ -497,7 +498,7 @@ body {
 #title:hover + .bg {
     background-image: url("/assets/Photos/250627846_349352996961433_3849908090717869515_n.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     opacity: 1;
     transition: visibility 0s linear 0s, opacity 500ms;
     visibility: visible;
