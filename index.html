@@ -1,64 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Inter&family=Montserrat:ital@1&display=swap" rel="stylesheet"><meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Inter&family=Montserrat:ital@1&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Inter&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Inter&family=Montserrat:ital@1&display=swap"
+        rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>Iheb khaldi</title>
 </head>
+
 <body>
-        <div class="container">
-            <bold class="Logo">Iheb</bold>
-            <div class="hero">
-                <div class="hero-content">
+    <div class="container-fluid">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header">
+                    <div class="Logo pt-5">
+                        <bold class="Logo">Iheb</bold>
+                    </div>
+                </div>
+            <div class="hero row justify-content-center align-self-center align-items-center">
+                <div class="col-10">
                     <h3 class="hero-title">Hello There!</h3>
-                    <p class='hero-paragraph'>
-                        I'm a fullstack software developer
-                        Specialized in Front-end development
-                    </p>
-                    <button class='hero-btn'>Download Cv</button>
-                    <button class='hero-btn'>Email me</button>
-                </div>
-            </div>
-                
-                    <img class="hero-img" src="./Images/3d-man-holding-phone.svg" alt="3d-man-holding-phone">
-          
-            </div>
+                    <p class='hero-paragraph col-7'>I'm a fullstack software developer
+                        Specialized in Front-end development</p>
 
-            <div class="Latest">
-                <div class="Latest-content">
-                    <h3 class="heading">Latest</h3>
-                    <p class="smaller-heading">Blossom</p>
-                    <p class="Latest-description">a constructive and inclusive social network 
-                        that links artists to each other.</p>
-                    <ul class="Project-List">
-                        <li>Share Artworks, Blogs</li>
-                        <li>Ask questions</li>
-                        <li>Organize events</li>
-                        <li>Serves the purpose of a portfolio</li>
-                        <li>Do your Magic</li>
-                    </ul>
+                    <div class="col-12">
+                    <a href="assets/Iheb_Khaldi's_resume.pdf" download class="hero-btn">
+                        Download Cv
+                    </a>
+                    <a href="mailto:iheb.khaldi@holbertonschool.com" class="hero-btn m-2">
+                        Email Me
+                    </a>
+                    </div>
                 </div>
-                <button class="btn-gh">Open Project on Github <img src="./Images/github-icon.svg" alt="github-icon"/></button>
-            </div>
-            <div class="About Latest">
-                <div class="About-content Latest-content">
-                    <h3 class="heading">About</h3>
-                    <p class="smaller-heading">Who Am i ?</p>
-                    <p class="About-description">I consider myself an analytical and Open-Minded individual.
-                        I am a Full-stack Software Engineer specialized in Front-end development. 
-                        I prefer to work with JavaScript, TypeScript, reactJS, also confident with python and SQL. 
-                        searching for a full time position where I could add value to the team and grow as developer.</p>
-                </div>
-                <button class="btn-gh">Open Project on Github <img src="./Images/github-icon.svg" alt="github-icon"/></button>
-            </div>
+                    <img class="hero-img col-2" src="./Images/3d-man-holding-phone.svg" alt="3d-man-holding-phone">
+        </div>
+
+        
+
+    </div>
+</div>
+
+    <div class="latest container-fluid">
+        <div class="row">
+        <div class="col-6">
+            <h3 class="heading mb-5">Latest</h3>
+            <p class="smaller-heading mb-3">Blossom</p>
+            <p class="Latest-description">a constructive and inclusive social network
+                that links artists to each other.</p>
+            <ul class="Project-List">
+                <li>Share Artworks, Blogs</li>
+                <li>Ask questions</li>
+                <li>Organize events</li>
+                <li>Serves the purpose of a portfolio</li>
+                <li>Do your Magic</li>
+            </ul>
+        </div>
+        <div class='col-6 align-self-center'>
+            <a href="https://github.com/Blossoom/blossoom-frontend">
+                <button class="btn-gh">Open Project on Github <img src="./Images/github-icon.svg"
+                        alt="github-icon" /></button>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+    
+    <div class="about container-fluid mt-5">
+    <div class="row">
+        <div class="col-6 ">
+            <h3 class="heading">About</h3>
+            <p class="smaller-heading">Who Am i ?</p>
+            <p class="About-description">I consider myself an analytical and Open-Minded individual.
+                I am a Full-stack Software Engineer specialized in Front-end development.
+                I prefer to work with JavaScript, TypeScript, reactJS, also confident with python and SQL.
+                searching for a full time position where I could add value to the team and grow as developer.</p>
+        </div>
+        <div class="col-6 d-flex flex-column align-items-center">
             
-
+                <img src="./Images/businessman in dark blue suit meditating.svg"
+                    alt="businessman in dark blue suit meditating" class="meditating">
+                    <div>    
+                            <a href="www.github.com/khaldi505"> 
+                                <button class="btn-about one">Github 
+                                    <img src="./Images/github-icon.svg" alt="github" />
+                                </button>
+                            </a>
+                            <a  href="https://www.linkedin.com/in/iheb-khaldi/">
+                                <button class="btn-about two"> Linkedin <img
+                                src="./Images/iconmonstr-linkedin-3.svg" alt="Linkedin"></button>
+                            </a>
+                        
+                    </div>
+            <a class="btn-about last"  href="www.github.com/khaldi505">Let's Talk About It<img src="./Images/mail-142.svg" alt="Mail"></a>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
